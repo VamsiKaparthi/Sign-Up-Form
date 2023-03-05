@@ -78,7 +78,7 @@ fieldset>div{
     width:33%;
 }
 input:focus{
-    bor
+    border-color: #c62327 !important;
 }
 button:hover{
     background-color: #c62327;
