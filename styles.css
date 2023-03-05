@@ -77,7 +77,7 @@ fieldset>div{
     margin-right: 100px;
     width:33%;
 }
-input:focus{
+input:valid{
     border-color: #c62327 !important;
 }
 button:hover{
