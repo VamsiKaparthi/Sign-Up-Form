@@ -18,7 +18,8 @@ section{
     
 }
 p{
-    padding: 100px;
+    margin-left: 7.5%;
+    padding-bottom: 100px;
     font-size: 30px;
     font-weight: 540;
     font-family: 'Times New Roman', Times, serif;
@@ -77,7 +78,7 @@ fieldset>div{
     width:33%;
 }
 input:focus{
-    
+    bor
 }
 button:hover{
     background-color: #c62327;
@@ -91,4 +92,25 @@ button:hover{
 }
 a{
     color: #c62327;
+}
+
+.image{
+    position: relative;
+    top:0;
+    left: 0;
+}
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+}
+  
+.image2 {
+    position: absolute;
+    bottom: 80px;
+    left: 192px;
+    border: 1px solid #000000;
+    opacity: 20%;
+    background-color: #000000;
 }
