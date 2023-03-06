@@ -70,15 +70,18 @@ input{
     border-radius: 3px;
     background-color: rgb(20, 19, 19);
     padding: 2px;
-    
+    font-size: 15px;
     color: aliceblue;
 }
 fieldset>div{
     margin-right: 100px;
     width:33%;
 }
-input:valid{
+input:invalid{
     border-color: #c62327 !important;
+}
+input:valid{
+    border-color: #33a532;
 }
 button:hover{
     background-color: #c62327;
