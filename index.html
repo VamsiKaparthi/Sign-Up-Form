@@ -42,7 +42,7 @@
                 </div>
                 <div>
                     <label for="confirm-pass">CONFIRM PASSWORD</label>
-                    <input type="email" id="confirm-pass" name="cfp" min="1" required>
+                    <input type="password" id="confirm-pass" name="cfp" min="1" required>
                 </div>
             </fieldset>
 
@@ -50,5 +50,18 @@
         </form>
         <p class="log">Already have an account? <a href="www.google.com">Log in</a></p>
     </section>
+    <script>
+        var pass=document.getElementById("pass");
+        var confirm1=document.getElementById("confirm-pass");
+        function validate(){
+            if(pass.value!=confirm1.value){
+                confirm1.setCustomValidity("Passwords Don't Match");
+            } else {
+                confirm1.setCustomValidity('');
+            }
+        }
+        pass.onchange = validate;
+        confirm1.onkeyup = validate;
+    </script>
 </body>
 </html>
